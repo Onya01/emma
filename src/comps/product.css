@@ -1,0 +1,162 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    font-family: 'Poppin', sans-serif;
+}
+
+.img {
+    height: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-left: 300px;
+}
+
+span {
+    font-size: 20px;
+    margin: 50px;
+}
+
+.text2 {
+    margin-left: 330px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+    font-size: 10px;
+    margin-left: 500px;
+}
+
+.backer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 250px;
+    position: relative;
+    width: 230px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;  
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+    margin-left: 50px;  
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.dec #dec{
+    color: #F878B9;
+}
+
+.bx-plus{
+    position: relative;
+    float: right;
+    margin-left: 50px;
+    color: black;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.back-right {
+    margin-left: 70.5px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    position: relative;
+}
+
+h6 {
+    font-size: 10px;
+    margin-bottom: 3rem;
+}
+
+.bac{
+    color: gray;
+}
+
+.seven {
+    display: block;
+    width: 190px;
+    padding: 4px 0;
+    margin: 0 605px auto;
+    background: #F878B9;
+    border: 1px solid gray;
+    color: white;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.eight {
+    display: block;
+    width: 120px;
+    padding: 4px 0;
+    margin: 0 670px auto;
+    background: #9DC408;
+    border: 1px solid gray;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nine {
+    display: block;
+    width: 190px;
+    padding: 4px 0;
+    margin: 0 650px auto;
+    background: gainsboro;
+    border: 1px solid gray;
+    color: #000;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.nine .bx{
+    color: #000;
+}
+
+.line {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+button .bx{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.times{
+    font-size: 5rem;
+}
